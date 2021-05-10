@@ -21,7 +21,7 @@
 // Created by Wang,Shun on 31/12/2016.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 public class DrawerSegue: UIStoryboardSegue {
   override public func perform() {
@@ -87,3 +87,5 @@ extension DrawerController {
   }
   
 }
+
+#endif

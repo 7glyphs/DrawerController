@@ -18,9 +18,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if canImport(UIKit)
 import Foundation
 import QuartzCore
-import UIKit
 
 open class AnimatedMenuButton : UIButton {
   
@@ -174,3 +174,5 @@ open class AnimatedMenuButton : UIButton {
     self.bottom.setValue(bottomTransform.toValue, forKey: bottomTransform.keyPath!)
   }
 }
+
+#endif

@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import UIKit
+#if canImport(UIKit)
 import QuartzCore
 
 public struct DrawerVisualState {
@@ -191,3 +191,5 @@ public struct DrawerVisualState {
     return visualStateBlock
   }
 }
+
+#endif

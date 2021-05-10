@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import UIKit
+#if canImport(UIKit)
 
 public extension UIViewController {
   var evo_drawerController: DrawerController? {
@@ -1577,3 +1577,4 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
   }
 }
 
+#endif
