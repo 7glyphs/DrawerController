@@ -19,6 +19,7 @@
 // THE SOFTWARE.
 
 #if canImport(UIKit)
+import UIKit
 import QuartzCore
 
 public struct DrawerVisualState {

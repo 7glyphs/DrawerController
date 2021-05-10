@@ -22,6 +22,7 @@
 //
 
 #if canImport(UIKit)
+import UIKit
 
 public class DrawerSegue: UIStoryboardSegue {
   override public func perform() {

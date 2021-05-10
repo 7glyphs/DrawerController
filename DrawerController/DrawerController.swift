@@ -19,6 +19,7 @@
 // THE SOFTWARE.
 
 #if canImport(UIKit)
+import UIKit
 
 public extension UIViewController {
   var evo_drawerController: DrawerController? {
